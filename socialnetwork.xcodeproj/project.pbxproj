@@ -14,6 +14,11 @@
 		38D834541ECAB4B2005A0540 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D834531ECAB4B2005A0540 /* Assets.xcassets */; };
 		38D834571ECAB4B2005A0540 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D834551ECAB4B2005A0540 /* LaunchScreen.storyboard */; };
 		38D8345F1ECAB59E005A0540 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38D8345E1ECAB59E005A0540 /* GoogleService-Info.plist */; };
+		38D834661ECADE35005A0540 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D834651ECADE35005A0540 /* FancyView.swift */; };
+		38D834691ECADEB2005A0540 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D834681ECADEB2005A0540 /* Constants.swift */; };
+		38D8346B1ECAE02D005A0540 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8346A1ECAE02D005A0540 /* RoundButton.swift */; };
+		38D8346D1ECAE89D005A0540 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8346C1ECAE89D005A0540 /* FancyField.swift */; };
+		38D8346F1ECAEAC0005A0540 /* FancyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8346E1ECAEAC0005A0540 /* FancyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +32,11 @@
 		38D834561ECAB4B2005A0540 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38D834581ECAB4B2005A0540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38D8345E1ECAB59E005A0540 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38D834651ECADE35005A0540 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		38D834681ECADEB2005A0540 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		38D8346A1ECAE02D005A0540 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		38D8346C1ECAE89D005A0540 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		38D8346E1ECAEAC0005A0540 /* FancyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyButton.swift; sourceTree = "<group>"; };
 		A7A37D513B3C979F84027D5C /* Pods_socialnetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socialnetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -63,6 +73,7 @@
 		38D8344B1ECAB4B2005A0540 /* socialnetwork */ = {
 			isa = PBXGroup;
 			children = (
+				38D834671ECADEA3005A0540 /* Util */,
 				38D834631ECAB60C005A0540 /* Config */,
 				38D834621ECAB5FB005A0540 /* Model */,
 				38D834611ECAB5F5005A0540 /* View */,
@@ -86,6 +97,10 @@
 			children = (
 				38D834551ECAB4B2005A0540 /* LaunchScreen.storyboard */,
 				38D834501ECAB4B2005A0540 /* Main.storyboard */,
+				38D834651ECADE35005A0540 /* FancyView.swift */,
+				38D8346A1ECAE02D005A0540 /* RoundButton.swift */,
+				38D8346C1ECAE89D005A0540 /* FancyField.swift */,
+				38D8346E1ECAEAC0005A0540 /* FancyButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -112,6 +127,14 @@
 				38D834531ECAB4B2005A0540 /* Assets.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		38D834671ECADEA3005A0540 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				38D834681ECADEB2005A0540 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		B9D93811AF0020C7F63E69CA /* Frameworks */ = {
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D8346D1ECAE89D005A0540 /* FancyField.swift in Sources */,
 				38D8344F1ECAB4B2005A0540 /* SignInVC.swift in Sources */,
+				38D8346B1ECAE02D005A0540 /* RoundButton.swift in Sources */,
+				38D8346F1ECAEAC0005A0540 /* FancyButton.swift in Sources */,
 				38D8344D1ECAB4B2005A0540 /* AppDelegate.swift in Sources */,
+				38D834661ECADE35005A0540 /* FancyView.swift in Sources */,
+				38D834691ECADEB2005A0540 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

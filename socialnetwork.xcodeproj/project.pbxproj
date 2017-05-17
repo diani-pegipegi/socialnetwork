@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		184BC085A68950DB96A3D54C /* Pods_socialnetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A37D513B3C979F84027D5C /* Pods_socialnetwork.framework */; };
+		386E6CAD1ECC05F200749719 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386E6CAC1ECC05F200749719 /* FeedVC.swift */; };
 		38D8344D1ECAB4B2005A0540 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8344C1ECAB4B2005A0540 /* AppDelegate.swift */; };
 		38D8344F1ECAB4B2005A0540 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8344E1ECAB4B2005A0540 /* SignInVC.swift */; };
 		38D834521ECAB4B2005A0540 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38D834501ECAB4B2005A0540 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0BC9B46B678C2A3C65D2F838 /* Pods-socialnetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialnetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socialnetwork/Pods-socialnetwork.debug.xcconfig"; sourceTree = "<group>"; };
 		18AAAEE5848A5A7E834C97E2 /* Pods-socialnetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialnetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-socialnetwork/Pods-socialnetwork.release.xcconfig"; sourceTree = "<group>"; };
+		386E6CAC1ECC05F200749719 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		38D834491ECAB4B2005A0540 /* socialnetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socialnetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38D8344C1ECAB4B2005A0540 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38D8344E1ECAB4B2005A0540 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				38D8344E1ECAB4B2005A0540 /* SignInVC.swift */,
+				386E6CAC1ECC05F200749719 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				38D8344F1ECAB4B2005A0540 /* SignInVC.swift in Sources */,
 				38D8346B1ECAE02D005A0540 /* RoundButton.swift in Sources */,
 				38D8346F1ECAEAC0005A0540 /* FancyButton.swift in Sources */,
+				386E6CAD1ECC05F200749719 /* FeedVC.swift in Sources */,
 				38D8344D1ECAB4B2005A0540 /* AppDelegate.swift in Sources */,
 				38D834661ECADE35005A0540 /* FancyView.swift in Sources */,
 				38D834691ECADEB2005A0540 /* Constants.swift in Sources */,

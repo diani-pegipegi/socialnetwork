@@ -76,6 +76,9 @@
                                     <constraint firstAttribute="width" constant="150" id="jUv-fm-dx7"/>
                                 </constraints>
                                 <state key="normal" image="f"/>
+                                <connections>
+                                    <action selector="facebookBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zUh-gM-96M"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yDU-xi-88I">
                                 <rect key="frame" x="46" y="420" width="283" height="117"/>
@@ -122,6 +125,9 @@
                             <constraint firstAttribute="trailing" secondItem="M9B-TG-FJa" secondAttribute="trailing" id="ytz-yz-6pR"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="facebookLoginButton" destination="4bd-Ww-Cce" id="JEa-7f-DbO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

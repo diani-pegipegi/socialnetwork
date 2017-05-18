@@ -23,7 +23,11 @@ class Post {
     }
     
     var likes: String {
-        return "\(_likes)"
+        if _likes != nil {
+            return "\(_likes!)"
+        } else {
+            return "0"
+        }
     }
     
     var postKey: String {
